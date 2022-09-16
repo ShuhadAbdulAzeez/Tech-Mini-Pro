@@ -6,31 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whalesin</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&family=Saira:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5788b38031.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
     <!--  -->
     <nav class="navbar">
-        <div class="contents">
+      <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-search">
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
           <div class="logo">
-            <img src="img/tech-logo.png" alt=""> 
+            <img src="img/tech-logo.png" alt="">
           </div>
-          <ul class="menu-list">
-            <div class="icon cancel-btn">
-                <i class="fas fa-times"></i>
-            </div>
+            <ul class="links">
               <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="#" class="desktop-link">Services</a>
+                <input type="checkbox" id="show-services">
+                <label for="show-services">Services</label>
+                <ul>
+                  <li><a href="webdev.html">Web Development</a></li>
+                  <li><a href="mobile.html">Mobile App Development</a></li>
+                  <li><a href="webdes.html">Web Designing</a></li>
+                  <li><a href="digital.html">Digital Marketing</a></li>
+                  <li><a href="branding.html">Branding</a></li>
+                  <li>
+                </ul>
+              </li>
               <li><a href="aboutus.html">About Us</a></li>
               <li><a href="contact.html">Contact Us</a></li>
               <li><a href="portfolio.html">Portfolio</a></li>
               <li><a href="career.html">Careers</a></li>
-          </ul>
-          <div class="icon menu-btn">
-            <i class="fas fa-bars"></i>
+            </ul>
           </div>
+        </nav>
+      </div>
+          <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+          </div>
+        <div class="icon menu-btn">
+          <i class="fas fa-bars"></i>
         </div>
-      </nav>
+    </nav>
 
       <div class="context">
         <h1>Mobile App Development</h1>
@@ -38,27 +61,28 @@
 
       <div class="area" >
         <ul class="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ul>
-</div >
+      </div >
 
 <!--  -->
-
-<div class="heading">
-    <h3 style="font-size: 40px; margin-top: 100px;" class="heading__title">Let your business grow with us.</h3>
-    <div class="wid">
-        <span><b>In this dynamic modern world, no one can imagine a business without proper high-end mobile solutions. With massive knowledge and expertise gained through years of experience, our Mobile Application development team is always ready to take a step beyond your expectations. Webandcrafts, the best mobile app development company in India is well equipped with the most advanced tools & technologies and pool of talents to meet individual business needs while ensuring exceptional user experience. We have an expert team of mobile app developers who create stunning mobile app designs. Our service expertise will cover all major Smartphone platforms including iOS, Android, and HTML5 app development.</b></span>
-    </div>
+<section class="s2">
+  <div class="main-container">
+      <div class="mobiledev-0">
+          <h3>Let your business grow with us. </h3>
+          <h6>In this dynamic modern world, no one can imagine a business without proper high-end mobile solutions. With massive knowledge and expertise gained through years of experience, our Mobile Application development team is always ready to take a step beyond your expectations. Webandcrafts, the best mobile app development company in India is well equipped with the most advanced tools & technologies and pool of talents to meet individual business needs while ensuring exceptional user experience. We have an expert team of mobile app developers who create stunning mobile app designs. Our service expertise will cover all major Smartphone platforms including iOS, Android, and HTML5 app development.</h6>
+      </div>
   </div>
+ </section>
 
   <!--  -->
 
@@ -68,7 +92,10 @@
             <div class="mobile">
                 <img src="img/mob.png" alt="">
             </div>
-            <div class="mob-details1">
+            <div class="mob-details1" class="des-3-2" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="100" data-aos-duration="600"
+            data-aos-offset="0">
                 <h3>Why do you choose Us?</h3>
                     <span><b>- Quality oriented work force</b></span> <br>
                     <span><b>- In depth knowledge of frameworks and mobile technologies</b></span> <br>
@@ -93,7 +120,7 @@
         <div class="heading">
             <h3 style="font-size: 40px; font-weight: 100;" class="heading__title">Services we offer</h3>
         </div>
-        <div class="of">
+        <div class="of" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
           <div class="bo">
             <div class="offer">
                 <div class="cir"><img src="img/apple.png" alt=""></div>
@@ -119,7 +146,7 @@
   <section class="s1">
     <div class="main-container">
       <div class="mobe">
-        <div class="mob-im">
+        <div class="mob-im" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1000">
            <h4 style="font-size: 30px; color: #fff; font-weight: 900;">Our Application Development Process</h4>
            <div class="we"> 
             <div class="you">
@@ -162,19 +189,19 @@
         <div class="serv">
           <h3>Address</h3>
           <ul>
-            <li style="margin-left:20px ;">Calicut, Kerala.</li>
-            <li><a href=""> info@whalesin.com</a></li>
-            <li><a href=""> +91 81298 22622</a></li>
-            <li><a href=""> +91 97479 71323</a></li>
+            <li style="margin-left:40px ;">Calicut, Kerala.</li>
+            <li><a href=""> <i class="fa-solid fa-envelope"></i>   info@whalesin.com</a></li>
+            <li><a href=""><i class="fa-solid fa-phone"></i>   +91 81298 22622</a></li>
+            <li><a href=""><i class="fa-solid fa-phone"></i>   +91 97479 71323</a></li>
           </ul>
         </div>
         <div class="serv">
           <h3>Follow Us</h3>
           <ul>
-            <a target="_blank" href="https://www.instagram.com/__shuhad/"><i class="fa-brands fa-instagram"></i></a>
-                  <a target="_blank" href="https://www.facebook.com/shuhad.abdulazeez/"><i class="fa-brands fa-facebook"></i></a>
-                  <a target="_blank" href="https://www.linkedin.com/in/shuhad-abdul-azeez/"><i class="fa-brands fa-linkedin"></i></a>
-                  <a target="_blank" href="https://twitter.com/Shuhad1"><i class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a target="_blank" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  <a target="_blank" href="#"><i class="fa-brands fa-twitter"></i></a>
           </ul>
         </div>
         <div class="log">
@@ -187,7 +214,14 @@
     </div>
   </section>
 
- 
+  <!-- JavaScript links-->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
 <script src="script.js"></script>
 </body>
 </html>

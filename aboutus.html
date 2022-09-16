@@ -8,52 +8,71 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&family=Saira:wght@300;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5788b38031.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
 <!--  -->
 
 <nav class="navbar">
-    <div class="contents">
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
       <div class="logo">
-        <img src="img/tech-logo.png" alt=""> 
+        <img src="img/tech-logo.png" alt="">
       </div>
-      <ul class="menu-list">
-        <div class="icon cancel-btn">
-            <i class="fas fa-times"></i>
-        </div>
+        <ul class="links">
           <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="#" class="desktop-link">Services</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Services</label>
+            <ul>
+              <li><a href="webdev.html">Web Development</a></li>
+              <li><a href="mobile.html">Mobile App Development</a></li>
+              <li><a href="webdes.html">Web Designing</a></li>
+              <li><a href="digital.html">Digital Marketing</a></li>
+              <li><a href="branding.html">Branding</a></li>
+              <li>
+            </ul>
+          </li>
           <li><a href="aboutus.html">About Us</a></li>
           <li><a href="contact.html">Contact Us</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="career.html">Careers</a></li>
-      </ul>
-      <div class="icon menu-btn">
-        <i class="fas fa-bars"></i>
+        </ul>
       </div>
+    </nav>
+  </div>
+      <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+      </div>
+    <div class="icon menu-btn">
+      <i class="fas fa-bars"></i>
     </div>
   </nav>
-
   <div class="context">
     <h1>About Us</h1>
 </div>
 
   <div class="area" >
     <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
     </ul>
-</div >
+  </div >
 
 <!--  -->
 
@@ -62,7 +81,10 @@
         <div class="about-1">
             <h2>Your Partner for
                 Business Innovation</h2>
-            <div class="about-1-1">
+            <div class="about-1-1" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="200"
+            data-aos-offset="0">
                 <div class="about-1-2">
                     <h3>Our Mission</h3>
                 </div>
@@ -76,6 +98,8 @@
                     <h3>Our Strategy</h3>
                 </div>
             </div>
+            <div data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" data-aos-delay="200" data-aos-duration="1000">
             <p><b>Whalesin Technologies is your solution-providing partner who is dignified and privileged to support you in your business operational needs. We are here to support you to turn your company and its operations into one of the best in the sector of your operations and transform the functioning of your company to higher levels. Moreover, we are a passionate team of professionals who are willing to provide our expertise for your development.</b></p>
 
             <p><b>We offer web development on various platforms as per your need, further we offer mobile application development in both Android as well as iOS platforms. Additionally, we are here to design and develop your websites as well as web apps for your operational needs. Furthermore, we understand your need to project and promote your company therefore, we will define your digital marketing strategies to put you first in the market, thereby improving your customer base.</b></p>
@@ -83,6 +107,7 @@
             <p><b>We can be your reliable partner for your company operations and the required tools for it, as well put you before us and will be there with you in all your future endeavors. We can elevate your business and enterprise operations on an upward path trajectory with custom software development, well-crafted mobile apps, website, and web application services, and consumer-specific digital marketing and promotion to bring in customers, we are here for you and will always be.</b></p>
 
             <button>Contact Us</button>
+            </div>
         </div>
     </div>
 </section>
@@ -93,7 +118,8 @@
 
 <section class="s2">
     <div class="main-container">
-        <div class="design-1">
+        <div class="design-1" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" data-aos-delay="200" data-aos-duration="1000">
             <h3>We do not design products, we design dreams</h3>
         </div>
     </div>
@@ -107,32 +133,31 @@
             <h2>Our Strengths</h2>
             <p><b>Leveraging the experience gained over the years and an all-seeing eye we kept open to the changing trends, we are able to keep up with the global web industry. Innovation is our forte and attention to detail is something we never compromise on.</b></p>
             <div class="about-2-1">
-                <div class="about-2-1-1">
-                    <div class="about-2-1-2">
-                        <img src="img/img10.jpg" alt="">
-                    </div>
-                    <div class="about-2-1-3">
-                        <h4>Committed Team</h4>
-                        <h6>Our team is highly skilled and know how to bring professionalism and quality in everything we deliver. More importantly, our people love what they do, making them great people to work with.</h6>
+                <div class="about-2-1-1" data-aos="flip-up" data-aos-delay="200" data-aos-duration="1000">
+                    <div class="about-2-1-4">
+                         <div class="about-2-1-3">
+                          <h4>Committed Team</h4>
+                          <h6>Our team is highly skilled and know how to bring professionalism and quality in everything we deliver. More importantly, our people love what they do, making them great people to work with.</h6>
+                      </div>
                     </div>
                 </div>
-                <div class="about-2-1-1">
-                    <div class="about-2-1-2">
+                <div class="about-2-1-1" data-aos="flip-up" data-aos-delay="200" data-aos-duration="1000">
+                    <div class="about-2-1-5">
+                      <div class="about-2-1-3">
                         <h4>Value Creators</h4>
-                        <h6>We believe in delivering value to the customer. This is why we call ourselves ‘Value Creators’. Each employee is trained to sharpen his skills, thus empowering him to work in alignment with our broad objectives.</h6>
+                          <h6>We believe in delivering value to the customer. This is why we call ourselves ‘Value Creators’. Each employee is trained to sharpen his skills, thus empowering him to work in alignment with our broad objectives.</h6>
+                       </div>
                     </div>
-                    <div class="about-2-1-3">
-                        <img src="img/img11.jpg" alt="">
-                    </div>
+                    
                 </div>
-                <div class="about-2-1-1">
-                    <div class="about-2-1-2">
-                        <img src="img/img12.jpg" alt="">
-                    </div>
-                    <div class="about-2-1-3">
+                <div class="about-2-1-1" data-aos="flip-up" data-aos-delay="200" data-aos-duration="1000">
+                    <div class="about-2-1-6">
+                      <div class="about-2-1-3">
                         <h4>Swift Customer Response</h4>
                         <h6>We provide prompt and satisfactory response to client queries. Moreover we are available 24/7/365 which is an advantage for our clients helping them resolve their issues anytime without delay.</h6>
                     </div>
+                     </div>
+                     
                 </div>
             </div>
         </div>
@@ -144,7 +169,7 @@
 <section class="s2">
     <div class="main-container">
         <div class="about-3">
-            <div class="about-3-1">
+            <div class="about-3-1" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
             <h2>Our Mission</h2>
                 <h5>To create new levels of excellence in the field of web by delivering services of highest quality and reliability. To be the complete and most sought-after web solutions company.</h5>
              </div>
@@ -177,19 +202,19 @@
         <div class="serv">
           <h3>Address</h3>
           <ul>
-            <li style="margin-left:20px ;">Calicut, Kerala.</li>
-            <li><a href=""> info@whalesin.com</a></li>
-            <li><a href=""> +91 81298 22622</a></li>
-            <li><a href=""> +91 97479 71323</a></li>
+            <li style="margin-left:40px ;">Calicut, Kerala.</li>
+            <li><a href=""> <i class="fa-solid fa-envelope"></i>   info@whalesin.com</a></li>
+            <li><a href=""><i class="fa-solid fa-phone"></i>   +91 81298 22622</a></li>
+            <li><a href=""><i class="fa-solid fa-phone"></i>   +91 97479 71323</a></li>
           </ul>
         </div>
         <div class="serv">
           <h3>Follow Us</h3>
           <ul>
-            <a target="_blank" href="https://www.instagram.com/__shuhad/"><i class="fa-brands fa-instagram"></i></a>
-                  <a target="_blank" href="https://www.facebook.com/shuhad.abdulazeez/"><i class="fa-brands fa-facebook"></i></a>
-                  <a target="_blank" href="https://www.linkedin.com/in/shuhad-abdul-azeez/"><i class="fa-brands fa-linkedin"></i></a>
-                  <a target="_blank" href="https://twitter.com/Shuhad1"><i class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a target="_blank" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  <a target="_blank" href="#"><i class="fa-brands fa-twitter"></i></a>
           </ul>
         </div>
         <div class="log">
@@ -201,8 +226,15 @@
       </footer>
     </div>
   </section>
+
+
+  <!-- JavaScript links-->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   
-    
+  <script>
+    AOS.init();
+  </script>
 
 <script src="script.js"></script>
 </body>

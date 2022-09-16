@@ -6,31 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>whalesin</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&family=Saira:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5788b38031.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     
     <!--  -->
 
     <nav class="navbar">
-        <div class="contents">
-          <div class="logo">
-            <img src="img/tech-logo.png" alt=""> 
-          </div>
-          <ul class="menu-list">
-            <div class="icon cancel-btn">
-                <i class="fas fa-times"></i>
+        <div class="wrapper">
+          <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+            <div class="logo">
+              <img src="img/tech-logo.png" alt="">
             </div>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="aboutus.html">About Us</a></li>
+              <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                  <a href="#" class="desktop-link">Services</a>
+                  <input type="checkbox" id="show-services">
+                  <label for="show-services">Services</label>
+                  <ul>
+                    <li><a href="webdev.html">Web Development</a></li>
+                    <li><a href="mobile.html">Mobile App Development</a></li>
+                    <li><a href="webdes.html">Web Designing</a></li>
+                    <li><a href="digital.html">Digital Marketing</a></li>
+                    <li><a href="branding.html">Branding</a></li>
+                    <li>
+                  </ul>
+                </li>
+                <li><a href="aboutus.html">About Us</a></li>
               <li><a href="contact.html">Contact Us</a></li>
               <li><a href="portfolio.html">Portfolio</a></li>
               <li><a href="career.html">Careers</a></li>
-          </ul>
+              </ul>
+            </div>
+          </nav>
+        </div>
+            <div class="icon cancel-btn">
+                <i class="fas fa-times"></i>
+            </div>
           <div class="icon menu-btn">
             <i class="fas fa-bars"></i>
           </div>
-        </div>
       </nav>
 
       <div class="context">
@@ -39,34 +62,36 @@
 
       <div class="area" >
         <ul class="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
         </ul>
-</div >
+      </div >
 
 <!--  -->
 
-<div class="heading">
-    <h3 style="font-size: 40px;" class="heading__title">Creating ripples in the Internet</h3>
-    <div class="wid">
-        <span><b>Proficient designers of Webandcrafts provide strategic designs that compliment the customers brand and accomplish their goals. As an accomplished web designing company in India, we assist the companies to develop across the web with our astounding and operational websites. For building intuitive and engaging websites we utilize the latest technology and creative style and helps to get an online presence for your business. Being a web designing company, we ensure to make you satisfied with our high standards of quality and efficiency. Our web designers and developers have years of experience in this technology and deliver effective solutions. So let us help you to build the website which increases your business on the web to a great extent.</b></span>
+   <section class="s2">
+    <div class="main-container">
+        <div class="des-0">
+            <h3>Creating ripples in the Internet</h3>
+            <h6>Proficient designers of Webandcrafts provide strategic designs that compliment the customers brand and accomplish their goals. As an accomplished web designing company in India, we assist the companies to develop across the web with our astounding and operational websites. For building intuitive and engaging websites we utilize the latest technology and creative style and helps to get an online presence for your business. Being a web designing company, we ensure to make you satisfied with our high standards of quality and efficiency. Our web designers and developers have years of experience in this technology and deliver effective solutions. So let us help you to build the website which increases your business on the web to a great extent.</h6>
+        </div>
     </div>
-  </div>
+   </section>
 
   <!--  -->
 
   <section class="s1">
     <div class="main-container">
         <div class="des-1">
-            <div class="des-1-1">
+            <div class="des-1-1" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
                 <div class="des-1-2">
                     <img src="https://webandcrafts.com/images/web-design1.jpg" alt="">
                 </div>
@@ -76,7 +101,7 @@
                     <p><b>A quality website is all about user experience. A perfect digital interface is critical to leave that lasting impression on online visitors who often mean to choose business associations by comparing multiple profiles. Go for the best design and you are half way through to achieving customer delight. Make the user feel comfortable while they stay put on the web pages.</b></p>
                 </div>
             </div>
-            <div class="des-1-1">
+            <div class="des-1-1" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
                 <div class="des-1-2">
                     <img src="https://webandcrafts.com/images/web-design2.jpg" alt="">
                 </div>
@@ -86,7 +111,7 @@
                     <p><b>Register traffic from target segments and boost business with our proven SEO strategy. Be assured of the best online visibility and page ranking ultimately ensuring value for money. Ineffective search results may lead to losing prospective customers of huge potential.</b></p>
                 </div>
             </div>
-            <div class="des-1-1">
+            <div class="des-1-1" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
                 <div class="des-1-2">
                     <img src="https://webandcrafts.com/images/web-design3.jpg" alt="">
                 </div>
@@ -96,7 +121,7 @@
                     <p><b>Run applications across multiple devices and do not let the screen size tamper with fine user experience. Ensure that the website adapts to each user's device, whether desktop, tablet or a smartphone. Resize the content and imagery in the most effective way to ensure that the website is user-friendly.</b></p>
                 </div>
             </div>
-            <div class="des-1-1">
+            <div class="des-1-1" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
                 <div class="des-1-2">
                     <img src="https://webandcrafts.com/images/web-design4.jpg" alt="">
                 </div>
@@ -108,7 +133,7 @@
                     </b></p>
                 </div>
             </div>
-            <div class="des-1-1">
+            <div class="des-1-1" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
                 <div class="des-1-2">
                     <img src="https://webandcrafts.com/images/web-design5.jpg" alt="">
                 </div>
@@ -118,7 +143,7 @@
                     <p><b>Interactive web design is vital to keeping visitors glued to websites. Going interactive can raise the satisfaction levels of customers. Moreover, the most advanced design features can keep people coming back to the website for frequent re-visits.</b></p>
                 </div>
             </div>
-            <div class="des-1-1">
+            <div class="des-1-1" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
                 <div class="des-1-2">
                     <img src="https://webandcrafts.com/images/web-design6.jpg" alt="">
                 </div>
@@ -139,7 +164,8 @@
                 <h2>Recent Web Designing Works</h2>
                 <h4>Our portfolio is rich with creative website designs that are sure to leave a lasting impression on the online visitor. We keep pace with the latest design trends while still adhering to all the industry standards. Time and again, we keep proving that it is the best websites which fetch the best business for our clients. Incorporating responsive web design we help the websites to get more exposure in the online business. We have the finest web designers in India who provide quality web design services. When compared to other web designing companies we develop websites which generate right website traffic and results.</h4>
             </div>
-        <div class="des-2-3">
+        <div class="des-2-3" data-aos="fade-up"
+        data-aos-anchor-placement="top-center" data-aos-duration="800">
             <div class="des-2-3-1">
                 <img src="https://cdn.dribbble.com/users/1615584/screenshots/15871130/media/9a8ae8263ee90fce37cbd2f16feeb9ed.jpg?compress=1&resize=400x300" alt="">
             </div>
@@ -158,10 +184,13 @@
   <section class="s1">
     <div class="main-container">
             <div class="des-3-1">
-                <h2>Recent Web Designing Works</h2>
-                <h4>Our portfolio is rich with creative website designs that are sure to leave a lasting impression on the online visitor. We keep pace with the latest design trends while still adhering to all the industry standards. Time and again, we keep proving that it is the best websites which fetch the best business for our clients. Incorporating responsive web design we help the websites to get more exposure in the online business. We have the finest web designers in India who provide quality web design services. When compared to other web designing companies we develop websites which generate right website traffic and results.</h4>
+                <h2>It makes sense to work with us</h2>
+                <h4>Tired of being associated with unprofessional and inexperienced companies? Well then, you have good reason to be here. As one of the top most web designing companies in India, we provide competitive services to reputed businesses across the globe. We have left our signature on the web with the excellence that we deliver. Our passion towards technology helps us in transforming innovative ideas into assets that add value to the customers. Check out what we offer and be convinced why we should be working together.</h4>
             </div>
-            <div class="des-3-2">
+            <div class="des-3-2" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="200" data-aos-duration="800"
+            data-aos-offset="0">
                 <div class="des-3-2-1">
                     <div class="des-3-2-2">
                         <img src="https://webandcrafts.com/images/work-with1.jpg" alt="">
@@ -262,19 +291,19 @@
         <div class="serv">
           <h3>Address</h3>
           <ul>
-            <li style="margin-left:20px ;">Calicut, Kerala.</li>
-            <li><a href=""> info@whalesin.com</a></li>
-            <li><a href=""> +91 81298 22622</a></li>
-            <li><a href=""> +91 97479 71323</a></li>
+            <li style="margin-left:40px ;">Calicut, Kerala.</li>
+            <li><a href=""> <i class="fa-solid fa-envelope"></i>   info@whalesin.com</a></li>
+            <li><a href=""><i class="fa-solid fa-phone"></i>   +91 81298 22622</a></li>
+            <li><a href=""><i class="fa-solid fa-phone"></i>   +91 97479 71323</a></li>
           </ul>
         </div>
         <div class="serv">
           <h3>Follow Us</h3>
           <ul>
-            <a target="_blank" href="https://www.instagram.com/__shuhad/"><i class="fa-brands fa-instagram"></i></a>
-                  <a target="_blank" href="https://www.facebook.com/shuhad.abdulazeez/"><i class="fa-brands fa-facebook"></i></a>
-                  <a target="_blank" href="https://www.linkedin.com/in/shuhad-abdul-azeez/"><i class="fa-brands fa-linkedin"></i></a>
-                  <a target="_blank" href="https://twitter.com/Shuhad1"><i class="fa-brands fa-twitter"></i></a>
+            <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a target="_blank" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  <a target="_blank" href="#"><i class="fa-brands fa-twitter"></i></a>
           </ul>
         </div>
         <div class="log">
@@ -286,10 +315,16 @@
       </footer>
     </div>
   </section>
+
+
+  <!-- JavaScript links-->
   
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
-
-    <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+  <script src="script.js"></script>
 </body>
 </html>
